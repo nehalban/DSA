@@ -10,30 +10,32 @@ using namespace std;
 
 
 struct SinglyLinkedList{
-    // operations:
-    // insertion at beginning : insert(data) or insert(data, false)
-    // insertion at the end : insert(data, true)
-    // insertion at given point : insert(data, index)
-    // deletion at beginning: del() or del(false)
-    // deletion at the end: del(true)
-    // deletion at given point: del(index)
-    // print entire list: print(separator)
-    // reversal in place : reverse()
-    // recursive function for reversal in place: recursive_reverse()
-    // return reversed list: reversed()
-    // length : len()
-    // return tail : tail()
-    // concatenation of two lists: concatenate(list, inplace)
-    // copy of list: copy()
-    // access elements at given index: operator[](index)
-    // addition of two lists/ copy of concatenated list: operator+(addend)
+    /*
+	* operations:
+    insertion at beginning : insert(data) or insert(data, false)
+    insertion at the end : insert(data, true)
+    insertion at given point : insert(data, index)
+    deletion at beginning: del() or del(false)
+    deletion at the end: del(true)
+    deletion at given point: del(index)
+    print entire list: print(separator)
+    reversal in place : reverse()
+    recursive function for reversal in place: recursive_reverse()
+    return reversed list: reversed()
+    length : len()
+    return tail : tail()
+    concatenation of two lists: concatenate(list, inplace)
+    copy of list: copy()
+    access elements at given index: operator[](index)
+    addition of two lists/ copy of concatenated list: operator+(addend)
 
-    // empty the list, free up space: clear (called in destructor as well)
+    empty the list, free up space: clear (called in destructor as well)
 
-    //reverse between given indices: reverse(index_begin, index_end)
-    //find - find first occurrence
-    //contains - bool for find
-    //remove - remove first occurrence of an element.
+    reverse between given indices: reverse(index_begin, index_end)
+    find - find first occurrence
+    contains - bool for find
+    remove - remove first occurrence of an element.
+	*/
     struct Node {
         int data;
         Node* next;
