@@ -1,0 +1,15 @@
+Root Node
+Parent, Child Node
+Leaf Node
+Ancestor
+
+Binary Trees:
+Full Binary Tree: Every node has either 0 or 2 children - never 1
+
+Complete or Perfect Binary Tree: All levels completely filled
+Almost Complete Binary Tree: Last level may not be completely filled - all nodes towards left
+{Tree is being constructed level-wise from left to right}
+
+Balanced Binary tree: heights of the two subtrees of any node differ by at most one.
+
+Degenerate Tree: nodes are arranged in a single path leaning to the right or left; resembles singly linked list
